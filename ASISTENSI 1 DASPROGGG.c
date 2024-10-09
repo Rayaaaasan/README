@@ -6,7 +6,7 @@ typedef struct {
     int jumlah;
 } Item;
 
-void tampilkanStruk(Item items[], int count) {
+void Struk(Item items[], int count) {
     float total = 0;
     printf("====== Struk Belanja ====== \n");
     for (int i = 0; i < count; i++) {
@@ -41,6 +41,6 @@ int main() {
         scanf("%d", &items[i].jumlah);
     }
 
-    tampilkanStruk(items, count);
+    Struk(items, count);
     return 0;
 }
