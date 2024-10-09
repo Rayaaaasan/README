@@ -10,7 +10,7 @@ nama: Nama barang (dibatasi maksimal 49 karakter untuk mencegah overflow) menggu
 harga: Harga barang dalam format float. 
 jumlah: Jumlah barang yang dibeli, disimpan sebagai int.
 
-Pada fungsi tampilkanstruk ini bertanggung jawab untuk menampilkan struk belanja.
+Pada fungsi struk ini bertanggung jawab untuk menampilkan struk belanja.
 Parameter:
 #items[]: Array dari barang-barang yang dibeli.
 #count: Jumlah barang yang dibeli.
@@ -36,4 +36,4 @@ Untuk setiap barang, pengguna akan diminta untuk memasukkan nama, harga, dan jum
 Nama barang dibatasi maksimum 49 karakter untuk mencegah kesalahan memori.
 Menampilkan struk:
 
-Setelah semua data dimasukkan, fungsi tampilkanStruk dipanggil untuk mencetak struk belanja, termasuk nama barang, jumlah, subtotal, dan total harga keseluruhan.
+Setelah semua data dimasukkan, fungsi Struk dipanggil untuk mencetak struk belanja, termasuk nama barang, jumlah, subtotal, dan total harga keseluruhan.
